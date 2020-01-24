@@ -8,9 +8,7 @@
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
+ * GNU General Public License for more detaiCH_WINSS* You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include QMK_KEYBOARD_H
@@ -46,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_ESC,  CH_1,    CH_2,    CH_3,    CH_4,    CH_5,    CH_6,    CH_7,    CH_8,    CH_9,    CH_0,    CH_QUOT, CH_CARR, CH_PARA, KC_BSPC,
     KC_TAB,  CH_Q,    CH_W,    CH_E,    CH_R,    CH_T,    CH_Z,    CH_U,    CH_I,    CH_O,    CH_P,    CH_UE,   CH_DIER, KC_PSCR, KC_ENT,
     KC_HOME, CH_A,    CH_S,    CH_D,    CH_F,    CH_G,    CH_H,    CH_J,    CH_K,    CH_L,    CH_OE,   CH_AE,   CH_DLR,  KC_END,  KC_ENT,
-    KC_LSFT, CH_LESS, CH_Y,    CH_X,    CH_C,    CH_V,    CH_B,    CH_N,    CH_M,    CH_COMM, CH_DOT,  KC_COMM, KC_PGDN, KC_UP,   KC_PGUP,
+    KC_LSFT, CH_LESS, CH_Y,    CH_X,    CH_C,    CH_V,    CH_B,    CH_N,    CH_M,    CH_COMM, CH_DOT,  CH_WINS, KC_PGDN, KC_UP,   KC_PGUP,
     KC_LCTL, KC_RCTL, KC_LWIN, KC_LALT, KC_LALT, KC_SPC,  KC_SPC,  KC_SPC,  KC_SPC,  KC_RALT, KC_RALT, KC_RWIN, KC_LEFT, KC_DOWN, KC_RGHT
   ),
 
